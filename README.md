@@ -2,6 +2,8 @@
 
 > A Bahtinov mask for small scopes.
 
+Create a custom Bahtinov mask by clicking in [here, and opening OpenJSCAD](http://openjscad.org/#https://raw.githubusercontent.com/johnwebbcole/bahtanov/master/dist/bahtinov.jscad)
+
 ![OpenJSCAD Bahtinov maks](images/bahtanov.jpg)
 
 # What is a Bahtinov mask?
@@ -24,7 +26,7 @@ Or you can send the SVG off to be laser cut. These are nice for large scopes.
 
 # Small scopes
 
-One issue for small scopes is that the slits in the mask are very small, and using a hobby knife to cut them out is difficult. Also, the narrow paper slits do not stand up well to dew.
+One issue for small scopes is that the slits in the mask are small, and using a hobby knife to cut them out is difficult. Also, the narrow paper slits do not stand up well to dew.
 
 Laser cutting has similar issues with small slits, the plastic around the slits melts and warps. Using plywood or MDF works better.
 
@@ -32,9 +34,9 @@ Since I have a 3D printer, I decided to print some for my guide scopes.
 
 ![Printed masks](images/Bahtonov mask for 55mm and 80mm scopes.jpg)
 
-Now you can print them out too.
+Now you can print them out too. Use the link [here](http://openjscad.org/#https://raw.githubusercontent.com/johnwebbcole/bahtanov/master/dist/bahtinov.jscad) to open the project in OpenJSCAD.
 
-## Running
+## Development
 
 The jscad project `bahtinov` uses gulp to create a `dist/bahtinov.jscad` file and watches your source for changes. You can drag the `dist/bahtinov.jscad` directory into the drop area on [openjscad.org](http://openjscad.org). Make sure you check `Auto Reload` and any time you save, gulp will recreate the `dist/bahtinov.jscad` file and your model should refresh.
 
